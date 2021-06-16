@@ -63,7 +63,7 @@ for (let k in squadre){
     squadre[k].falliSubiti = randomNum();
     // console.log(squadre); 
 
-    const {nomeS, puntiFatti, falliSubiti} = squadre[k]; /*destructuring */
+    const {nomeS, falliSubiti} = squadre[k]; /*destructuring */
 
     nomeFalli.push({nomeS, falliSubiti});
 }
