@@ -56,7 +56,7 @@ const squadre = [
 
 const randomNum = () => Math.floor(Math.random()*10); /* arrow function */
 
-let nomeFalli =[];
+const nomeFalli = [];
 
 for (let k in squadre){
     squadre[k].puntiFatti = randomNum();
@@ -69,5 +69,3 @@ for (let k in squadre){
 }
 
 console.log(nomeFalli);
-
-
